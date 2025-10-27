@@ -56,7 +56,10 @@ http://localhost:3000
   "password": "Aa123456",
   "role": "customer"
 }
+```
+
 - **Response:**
+```json
 {
     "message": "User created successfully",
     "user": {
@@ -76,7 +79,10 @@ http://localhost:3000
   "email": "serhii@example.com",
   "password": "Aa123456"
 }
+```
+
 - **Response:**
+```json
 {
     "message": "Login successful",
     "token": "jwt-token-here"
